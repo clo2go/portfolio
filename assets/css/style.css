@@ -105,6 +105,9 @@ nav a:first-child {
 	float: left;
 	border: 1px solid #ddd;
 }
+.main-section p {
+	float: left;
+}
 
 .auth-image {
 	width: 200px;
@@ -233,7 +236,105 @@ input[type=submit] {
 }
 
 
+@media only screen and (max-width: 980px) {
+	.container {
+		padding: 0 20px;
+		max-width: 768px;
+	}
+	#main-container {
+		padding-top: 130px;
+	}
+	.main-section {
+		max-width: 420px;
+	}
+	.work {
+		width: 100%;
+	}
+	.auth-image {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
 
+@media only screen and (max-width: 768px) {
+	.main-section, .sidebar {
+		max-width: 100%;
+	}
+	#main-container {
+		overflow: auto;
+	}
+	.sidebar {
+		margin-bottom: 40px;
+	}
+	.work {
+		width: 42%;
+		margin: 10px;
+
+	}
+	.work:nth-child(even) {
+		margin-right: 0;
+	}
+	.work:nth-child(odd) {
+		float: right;
+	}
+	.auth-image {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.main-section, .sidebar {
+		max-width: 100%;
+	}
+	#main-container {
+		overflow: auto;
+	}
+	#masthead {
+		position: static;
+		margin-bottom: 20px;
+	}
+	header.container {
+		padding: 0;
+	}
+	#main-container {
+		padding-top: 0;
+	}
+	.work {
+		width: 100%;
+	}
+	.work:nth-child(even) {
+		margin-left: 0;
+	}
+	.work:nth-child(odd) {
+		float: right;
+		margin-right: 0;
+	}
+	#logo, .work, .auth-image {
+		width: 100%;
+	}
+	.work h3 {
+		line-height: 15px;
+	}
+	nav {
+		text-align: center;
+		width: 100%;
+		margin: 15px 0;
+	}
+	nav a {
+		width: 30%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+}
+
+/*@media only screen and (max-width: 440px) {
+	.nav {
+		position: static;
+		margin-bottom: 20px;
+	}
+}
+*/
 
 
 
