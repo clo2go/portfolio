@@ -155,6 +155,7 @@ img {
 
 }
 
+
 @media screen and (max-width: 980px) {
 
 }
@@ -276,13 +277,13 @@ img {
 }    
 @media screen and (max-width: 640px) {
 .navbar {
-	width:405px;
+	width:500px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	
 }
 .nav {
-	width:405px;
+	width:500px;
 	margin: 45px 0px 10px 0px;
 	word-spacing: 2px;
 	text-align: center;
@@ -290,7 +291,7 @@ img {
 
 }
 .name {
-	width:508px;
+	width: 600px;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	text-align: center;
@@ -316,10 +317,10 @@ img {
 	margin: 0px 0px 0px 0px;
 }
 #main-bio {
-	width: 73%;
+	width: 75%;
 	line-height: 190%;
-	margin: 10px 4px 10px -7px;
-	padding: 5px 5px 5px 5px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	
 }
 #contact-info {
@@ -332,7 +333,7 @@ img {
 }
 #bio-image {
 	height:340px;
-	margin: 10px 10px 10px 10px;
+	
 }
 .footer {
 	footer {position: static;}
